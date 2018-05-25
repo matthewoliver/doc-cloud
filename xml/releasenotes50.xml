@@ -19,7 +19,9 @@
  <xi:include href="newfeatures50.xml"/>
  <xi:include href="fixedissues50.xml"/>
  <xi:include href="knownissues50.xml"/>
- <xi:include href="unsupported_features.xml"/>
+ <!-- csymons 2018-05-25:
+     <xi:include href="unsupported_features.xml"/>
+-->
  <xi:include href="enhancements_to_openstack.xml"/>
  <xi:include href="newton_features.xml"/>
 </section>

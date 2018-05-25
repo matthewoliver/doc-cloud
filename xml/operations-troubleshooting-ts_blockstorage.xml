@@ -761,5 +761,4 @@ cinder-backup    ha-volume-manager                    nova             enabled  
    vising these pages:
   </para>
  </section>
-<!-- VSA is gone in SOC8 <xi:include href="operations-troubleshooting-ts_vsa.xml"/> -->
 </section>
