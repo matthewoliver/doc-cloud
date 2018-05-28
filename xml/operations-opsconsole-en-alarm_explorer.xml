@@ -10,89 +10,25 @@
  <title>Alarm Explorer</title>
  <para>
   This page displays the alarms for all services and appliances. By default,
-  alarms are sorted by most recent and in a table format.
+  alarms are sorted by their state.
  </para>
  <section>
-  <title>Search and Sort</title>
+  <title>Filter and Sort</title>
   <para>
-   The search bar allows you to filter the alarms you want to view. Type and
-   Status are examples of alarm criteria that can be specified. Additionally,
-   you can filter by typing in text similar to searching by keywords.
+   Using the <guibutton>Filter Alarms</guibutton> button, you can filter the
+   alarms by their IDs and dimensions. The <guimenu>Filter Alarms</guimenu>
+   dialog lets you configure a filtering rule using the <guimenu>Alarm
+   ID</guimenu> field and options in the <guimenu>Dimension(s)</guimenu>
+   section.
   </para>
-  <para>
-   The checkbox allows you to select (or deselect) a group of alarms and apply
-   a single condition on the selected alarms:
-  </para>
-  <itemizedlist>
-   <listitem>
-    <para>
-     <guimenu>Select Visible</guimenu> allows you to set a condition on
-     selected alarms from the table.
-    </para>
-   </listitem>
-   <listitem>
-    <para>
-     <guimenu>Select All</guimenu> allows you to set a condition on all the
-     alarms from the table.
-    </para>
-   </listitem>
-   <listitem>
-    <para>
-     <guimenu>Clear Selection</guimenu> allows you to clear all the selections
-     currently selected from the table.
-    </para>
-   </listitem>
-  </itemizedlist>
   <para>
    You can display the alarms by grid, list or table views by selecting the
    corresponding icons next to the <guimenu>Sort By</guimenu> control.
   </para>
   <para>
-   The <guimenu>Sort By</guimenu> control contains a drop-down list of ways by
-   which you can sort the alarms. Alternatively, you can also sort using the
-   column headers in the table.
+   To sort the alarm list, click on the desired column header. To reverse the
+   sort order click again on the column.
   </para>
-  <itemizedlist>
-   <listitem>
-    <para>
-     <guimenu>Sort by State</guimenu> displays the alarms by reported status of
-     <emphasis role="bold">OK</emphasis>,
-     <emphasis role="bold">Warning</emphasis>,
-     <emphasis role="bold">Error</emphasis>, and
-     <emphasis role="bold">Unknown</emphasis>
-    </para>
-   </listitem>
-   <listitem>
-    <para>
-     <guimenu>Sort by Alarm</guimenu> displays the alarms by name.
-    </para>
-   </listitem>
-   <listitem>
-    <para>
-     <guimenu>Sort by Alarm ID</guimenu> displays the alarms UUID.
-    </para>
-   </listitem>
-   <listitem>
-    <para>
-     <guimenu>Sort by Last Check</guimenu> displays the alarms by the date and
-     timestamp of the most recent occurrence.
-    </para>
-   </listitem>
-   <listitem>
-    <para>
-     <guimenu>Sort by Dimension</guimenu> displays the alarms by device,
-     hostname and service which they belong to.
-    </para>
-   </listitem>
-   <listitem>
-    <para>
-     <guimenu>Sort by Condition</guimenu> displays the alarms by whether the
-     alarm is <emphasis role="bold">Open</emphasis>,
-     <emphasis role="bold">Acknowledged</emphasis>, or
-     <emphasis role="bold">Resolved</emphasis>.
-    </para>
-   </listitem>
-  </itemizedlist>
  </section>
  <section>
   <title>Alarm Table</title>
@@ -101,7 +37,7 @@
    same condition on them.
   </para>
   <para>
-   The <emphasis role="bold">State</emphasis> column displays a graphical
+   The <emphasis role="bold">Status</emphasis> column displays a graphical
    indicator that shows the state of each alarm:
   </para>
   <itemizedlist>
@@ -118,7 +54,7 @@
    </listitem>
    <listitem>
     <para>
-     Red ball (or red indicator): Alarm. Varying severity levels and must be
+     Red dot (or red indicator): Alarm. Varying severity levels and must be
      addressed.
     </para>
    </listitem>
@@ -139,10 +75,6 @@
   <para>
    The <emphasis role="bold">Dimension</emphasis> column describes the
    components to check in order to clear the alarm.
-  </para>
-  <para>
-   The <emphasis role="bold">Condition</emphasis> column shows the current
-   condition of each alarm.
   </para>
  </section>
 </chapter>
