@@ -15,7 +15,7 @@
  <section>
   <title>Filter and Sort</title>
   <para>
-   Using the <guibutton>Filter Alarms</guibutton> button, you can filter the
+   Using the <guimenu>Filter Alarms</guimenu> button, you can filter the
    alarms by their IDs and dimensions. The <guimenu>Filter Alarms</guimenu>
    dialog lets you configure a filtering rule using the <guimenu>Alarm
    ID</guimenu> field and options in the <guimenu>Dimension(s)</guimenu>
